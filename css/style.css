@@ -34,9 +34,19 @@ address {
   font-style: normal;
 }
   
-  
+.input-list  {
+  position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--ocean);
+    border-radius: 2px;
+}  
+
 /* HEADER */
-.top-line{
+.top-line .portfolio-class{
   border-bottom: 1px solid var(--cornflower);
   box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
