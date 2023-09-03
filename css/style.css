@@ -25,6 +25,19 @@ body {
     padding: 0 15px;
     margin: 0 auto;
   }
+
+    .hero-section-bg {
+      background-color: var(--navyblue);
+      background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/people-office.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      max-width: 1440px;
+      display: flex;
+      margin: 0 auto;
+      padding: 188px 0;
+    }
+
 img{
   display: block;
   max-width: 100%;
@@ -172,7 +185,7 @@ address {
 
 /* HERO SECTION */
 
-.hero-section-bg {
+/* .hero-section-bg {
   background-color: var(--navyblue);
   background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/people-office.jpg);
   background-repeat: no-repeat;
@@ -182,7 +195,7 @@ address {
   display: flex;
   margin: 0 auto;
   padding: 188px 0;
-}
+} */
  
 .wrapper {
     font-size: 56px;
