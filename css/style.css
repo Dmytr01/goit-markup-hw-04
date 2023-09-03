@@ -96,7 +96,7 @@ address {
   position: relative;
 }
 
-.input-list.current::after {
+/* .input-list.current::after {
   position: absolute;
   content: "";
   left: 0;
@@ -105,7 +105,7 @@ address {
   height: 4px;
   background-color: var(--ocean);
   bottom: -1px;
-}
+} */
 .current {
   color: var(--ocean);
   position: relative;
@@ -464,17 +464,7 @@ address {
   position: relative;
 }
 
-.current::after {
-  width: 100%;
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-  transition: border-radius 2px;
-}
+
 
 
 /* SECTION */
