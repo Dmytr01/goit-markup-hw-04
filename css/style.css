@@ -34,7 +34,7 @@ address {
   font-style: normal;
 }
   
-.input-list  {
+.input-list .current  {
   position: absolute;
     content: "";
     left: 0;
