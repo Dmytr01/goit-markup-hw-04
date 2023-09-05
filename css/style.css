@@ -111,7 +111,7 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--ocean);
+  color: var(--navy-blue);
   text-decoration: none;
   padding: 24px 0 24px;
   display: block;
@@ -137,7 +137,6 @@ address {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-  transition: border-radius 2px;
 }
 
 .input-list:hover {
@@ -303,7 +302,7 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  
 }
 
 .image-company-box {
